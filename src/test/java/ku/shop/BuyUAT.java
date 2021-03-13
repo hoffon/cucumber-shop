@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:features",
-                 plugin = {"pretty", "html:target/cucumber"})
+        plugin = {"pretty", "html:target/cucumber"})
 public class BuyUAT {
 
 }
